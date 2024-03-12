@@ -1,9 +1,10 @@
 import os
+from datetime import datetime as dt
+
 import aiohttp
-from dotenv import load_dotenv
 import pandas as pd
 import sqlalchemy as sql
-from datetime import datetime as dt
+from dotenv import load_dotenv
 
 BASE_API = "http://127.0.0.1:8000"
 HOST = "localhost"
